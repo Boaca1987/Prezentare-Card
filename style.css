@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    margin-top: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-image {
+    flex: 1;
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.card-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
